@@ -1,0 +1,14 @@
+{
+  "name": "welcome",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "stream": "node --watch streams/import-csv.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.5"
+  }
+}
